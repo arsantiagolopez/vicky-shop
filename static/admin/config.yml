@@ -1,5 +1,4 @@
 backend:
-  name: git-gateway
   branch: master
   repo: arsantiagolopez/vicky-shop
 
