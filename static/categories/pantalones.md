@@ -1,4 +1,4 @@
 ---
-categoryName: pantalones
+categoryName: Pantalones
 featuredImage: ../images/pants.jpeg
 ---
