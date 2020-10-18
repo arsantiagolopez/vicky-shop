@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-export const onServiceWorkerUpdateReady = () => window.location.reload();
+exports.onServiceWorkerUpdateReady= () => window.location.reload(true);
 
 module.exports = {
   siteMetadata: {
