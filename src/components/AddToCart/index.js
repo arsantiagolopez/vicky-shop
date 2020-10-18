@@ -10,7 +10,7 @@ const AddToCart = ({location, number}) => {
   }
 
   // Encode WhatsApp message
-  const priceInquiry = `A cuanto esta este producto? ${location.href}`
+  const priceInquiry = `Que precio tiene este artículo? ${location.href}`
   const urlEncodedPriceInquiry = priceInquiry.replace(/\s+/g, '%20')
   const priceInquiryWhatsappHref = `https://wa.me/${number}/?text=${urlEncodedPriceInquiry}`
 
