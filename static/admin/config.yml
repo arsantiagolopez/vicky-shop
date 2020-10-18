@@ -102,7 +102,7 @@ collections:
       - widget: 'string'
         label: 'Nombre del Color'
         name: 'colorName'
-        hint: 'Nombre del color no puede ser editado una vez creado. Si quieres editarlo, borra y crea este color nuevamente."
+        hint: 'Nombre del color no puede ser editado una vez creado. Si quieres editarlo, borra y crea este color nuevamente.'
         required: true
       # Code (string)
       - widget: 'string'
