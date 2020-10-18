@@ -1,4 +1,4 @@
 ---
-categoryName: accesorios
+categoryName: Accesorios
 featuredImage: ../images/accessories.jpeg
 ---
