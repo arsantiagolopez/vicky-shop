@@ -47,8 +47,6 @@ collections:
         label: 'Marca'
         name: 'brand'
         required: true
-        pattern:
-          ['^[A-Z][a-zA-Z0-9]*$', 'La primera letra tiene que ser mayuscula.']
       # Color (Multiple select relation)
       - widget: 'relation'
         label: 'Colores'
