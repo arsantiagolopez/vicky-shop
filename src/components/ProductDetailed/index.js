@@ -43,7 +43,7 @@ const ProductDetailed = ({
       {/* Breadcrumb Navigation */}
       <Breadcrumb
         size="massive"
-        style={{textTransform: `capitalize`, margin: `0.5em 0`}}
+        style={{margin: `0.5em 0`}}
       >
         <Breadcrumb.Section
           as={Link}
