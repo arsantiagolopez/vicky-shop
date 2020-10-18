@@ -79,7 +79,7 @@ const ProductDetailed = ({
             {brand}
           </Header>
 
-          <Header size="small">Talla</Header>
+          <Header size="small">Tamaño</Header>
           <Label className="sizeLabel">{size}</Label>
 
           {/* Color Field */}
