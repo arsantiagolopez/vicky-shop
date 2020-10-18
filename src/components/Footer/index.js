@@ -85,7 +85,7 @@ const Footer = () => {
           <Grid.Row>
             <p style={{fontSize: `10pt`, letterSpacing: `-0.25pt`}}>
               <i style={{fontFamily: `Times New Roman`}}>
-                © Roy's Ale {new Date().getFullYear()}
+                © Vicky Shop {new Date().getFullYear()}
               </i>{' '}
               – <b style={{fontSize: `8pt`}}>DESIGN BY ALEXANDER SANTIAGO</b>
             </p>
