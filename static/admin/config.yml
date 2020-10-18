@@ -1,4 +1,5 @@
 backend:
+  name: git-gateway
   branch: master
   repo: arsantiagolopez/vicky-shop
 
@@ -29,7 +30,7 @@ collections:
       - widget: 'string'
         label: 'Titulo'
         name: 'title'
-        hint: 'Titulo no puede ser editado una vez creado. Si quieres editarlo, borra y crea este articulo nuevamente."
+        hint: 'Titulo no puede ser editado una vez creado. Si quieres editarlo, borra y crea este articulo nuevamente.'
         required: true
       # Description (string)
       - widget: 'string'
