@@ -1,6 +1,20 @@
 const {createFilePath} = require(`gatsby-source-filesystem`)
 const path = require('path')
 
+// Declare graphql variables that might not be inferred
+exports.createSchemaCustomization = ({actions}) => {
+  const {createTypes} = actions
+  const typeDefs = `
+    type MarkdownRemarkFrontmatter {
+      colors: [String!]
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `
+  createTypes(typeDefs)
+}
+
 /* Runs everytime a node is created or updated
    Creates a "slug" field per node. */
 exports.onCreateNode = ({node, getNode, actions}) => {
