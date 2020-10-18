@@ -1,5 +1,7 @@
 require('dotenv').config()
 
+export const onServiceWorkerUpdateReady = () => window.location.reload();
+
 module.exports = {
   siteMetadata: {
     title: `Vicky Shop`,
