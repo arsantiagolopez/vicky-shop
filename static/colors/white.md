@@ -1,4 +1,4 @@
 ---
-colorName: white
-colorCode: '#000000'
+colorName: Blanco
+colorCode: "#000000"
 ---
