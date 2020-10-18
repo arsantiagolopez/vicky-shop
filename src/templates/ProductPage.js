@@ -80,7 +80,7 @@ export const query = graphql`
     brandProducts: allMarkdownRemark(
       filter: {frontmatter: {brand: {eq: $brand}}}
       sort: {order: ASC, fields: frontmatter___dateCreated}
-      limit: 6
+      limit: 8
     ) {
       edges {
         node {
