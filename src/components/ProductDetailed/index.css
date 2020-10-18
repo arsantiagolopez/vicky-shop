@@ -10,7 +10,6 @@
   padding: 1em 3em;
   background-color: white;
   border: 1px solid rgba(1, 1, 1, 0.3);
-  text-transform: capitalize;
 }
 
 .ui.label.colorLabel {
