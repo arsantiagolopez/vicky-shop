@@ -1,4 +1,4 @@
 ---
-categoryName: Accesorios
+categoryName: Cosmeticos
 featuredImage: ../images/accessories.jpeg
 ---
