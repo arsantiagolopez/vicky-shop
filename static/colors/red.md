@@ -1,4 +1,4 @@
 ---
-colorName: red
+colorName: Rojo
 colorCode: "#ff0000"
 ---
