@@ -1,4 +1,4 @@
 ---
-colorName: black
-colorCode: '#111111'
+colorName: Negro
+colorCode: "#111111"
 ---
