@@ -1,4 +1,4 @@
 ---
-categoryName: vestidos
+categoryName: Vestidos
 featuredImage: ../images/dresses.jpeg
 ---
