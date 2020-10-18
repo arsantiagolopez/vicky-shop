@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-#   branch: master
-#   repo: arsantiagolopez/vicky-shop
+  branch: master
+  repo: arsantiagolopez/vicky-shop
 
-local_backend: true
+# local_backend: true
 
 media_folder: 'static/images'
 public_folder: '/images'
@@ -30,6 +30,7 @@ collections:
       - widget: 'string'
         label: 'Titulo'
         name: 'title'
+        hint: 'Titulo no puede ser editado una vez creado. Si quieres editarlo, borra y crea este articulo nuevamente."
         required: true
       # Description (string)
       - widget: 'string'
@@ -81,6 +82,7 @@ collections:
       - widget: 'string'
         label: 'Nombre de la Categoria'
         name: 'categoryName'
+        hint: 'Nombre de la categoria no puede ser editado una vez creado. Si quieres editarlo, borra y crea esta categoria nuevamente."
         required: true
       # Image (image)
       - widget: 'image'
@@ -100,6 +102,7 @@ collections:
       - widget: 'string'
         label: 'Nombre del Color'
         name: 'colorName'
+        hint: 'Nombre del color no puede ser editado una vez creado. Si quieres editarlo, borra y crea este color nuevamente."
         required: true
       # Code (string)
       - widget: 'string'
