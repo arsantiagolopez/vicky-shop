@@ -1,4 +1,4 @@
 ---
-categoryName: ropa interior
+categoryName: Ropa interior
 featuredImage: /images/underwear.jpg
 ---
