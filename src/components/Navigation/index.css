@@ -1,0 +1,50 @@
+/* Hide scrollbar in Chrome */
+#navContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide NavBar border */
+.ui.fluid.text.menu {
+  border: none;
+  max-width: fit-content;
+  left: 0;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Change color of active category item */
+.ui.fluid.text.menu .active.item,
+.ui.fluid.text.menu .active.item:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  /* remove horizontal padding from categories nav */
+  .ui.center.aligned.container {
+    width: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  /* slight indentation to start category nav */
+  #navContainer {
+    padding: 0;
+  }
+}
+
+/* Optional CSS Styling */
+
+/* ################## UNCOMMENT ALL TO ADD STYLED UNDERLINE */
+
+/* Make underline thicker, and change to yellow/gold gradient color */
+
+.ui.fluid.text.menu .active.item,
+.ui.fluid.text.menu .active.item:hover {
+  border: none;
+  border-bottom-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #fcff00, #f8d800) 0 0 1 0;
+}
+.ui.fluid.text.menu .item {
+  border-bottom-width: 6px;
+}

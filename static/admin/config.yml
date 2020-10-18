@@ -1,0 +1,113 @@
+# backend:
+#   name: git-gateway
+#   branch: master
+#   repo: arsantiagolopez/roysale
+
+backend:
+  name: git-gateway
+
+local_backend: true
+
+media_folder: 'static/images'
+public_folder: '/images'
+logo_url: '/logo.png'
+
+collections:
+  - label: 'Productos'
+    name: 'products'
+    description: 'Agrega o borra los productos que tengas en venta.'
+    folder: 'static/products'
+    slug: '{{title}}'
+    create: true
+    delete: true
+    fields:
+      # Category (relation)
+      - widget: 'relation'
+        label: 'Categoria'
+        name: 'category'
+        collection: 'categories'
+        searchFields: ['categoryName']
+        valueField: 'categoryName'
+        required: true
+      # Title (string)
+      - widget: 'string'
+        label: 'Titulo'
+        name: 'title'
+        required: true
+      # Description (string)
+      - widget: 'string'
+        label: 'Descripcion'
+        name: 'description'
+        required: true
+      # Size (string)
+      - widget: 'string'
+        label: 'Tamaño'
+        name: 'size'
+        required: true
+      # Brand (string)
+      - widget: 'string'
+        label: 'Marca'
+        name: 'brand'
+        required: true
+        pattern:
+          ['^[A-Z][a-zA-Z0-9]*$', 'La primera letra tiene que ser mayuscula.']
+      # Color (Multiple select relation)
+      - widget: 'relation'
+        label: 'Colores'
+        name: 'colors'
+        collection: 'colors'
+        searchFields: ['colorName']
+        valueField: 'colorName'
+        required: false
+        multiple: true
+      # Image (image)
+      - widget: 'image'
+        label: 'Imagen'
+        name: 'featuredImage'
+        required: true
+      # Date created (datetime)
+      - widget: 'datetime'
+        label: 'Fecha'
+        name: 'dateCreated'
+        default: ''
+        timeFormat: false
+        required: true
+  - label: 'Categorias'
+    name: 'categories'
+    description:
+      'Agrega las categorias aqui para luego poder seleccionarlas en productos.'
+    folder: 'static/categories'
+    delete: true
+    create: true
+    # identifier_field must match variable name in .md file, if no title is provided
+    identifier_field: categoryName
+    fields:
+      # Name (string)
+      - widget: 'string'
+        label: 'Nombre de la Categoria'
+        name: 'categoryName'
+        required: true
+      # Image (image)
+      - widget: 'image'
+        label: 'Imagen'
+        name: 'featuredImage'
+        required: true
+  - label: 'Colores'
+    name: 'colors'
+    description:
+      'Agrega los colores que quieras poder seleccionar en productos.'
+    folder: 'static/colors'
+    delete: true
+    create: true
+    identifier_field: colorName
+    fields:
+      # Name (string)
+      - widget: 'string'
+        label: 'Nombre del Color'
+        name: 'colorName'
+        required: true
+      # Code (string)
+      - widget: 'string'
+        label: 'Codigo HEX o RGBA'
+        name: 'colorCode'
+        required: true

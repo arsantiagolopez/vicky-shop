@@ -1,0 +1,96 @@
+/* ####################### Button shining animation ####################### */
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.ui.massive.fade.animated.button.orderButton {
+  box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.2);
+  /* ANIMATION */
+  background: linear-gradient(270deg, #2c3a5e, #387b9f, #2c3a5e);
+  background-size: 600% 600%;
+  -webkit-animation: shine 4s ease infinite;
+  -o-animation: shine 4s ease infinite;
+  animation: shine 4s ease infinite;
+  color: white;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+/* Remove vertical space from absolute header */
+
+.ui.header.logoName {
+  position: absolute;
+  width: 20vw;
+  min-width: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 5.5em;
+}
+
+/* Responsive component did not work on intital load
+   so resourced back to good ol' css queries */
+
+.desktopImage {
+  display: block;
+}
+
+.mobileImage {
+  display: none;
+}
+
+.buttonDiv {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.ui.massive.fade.animated.button.orderButton {
+  margin: 5vw 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .desktopImage {
+    display: none;
+  }
+  .mobileImage {
+    display: block;
+  }
+  .ui.massive.fade.animated.button.orderButton {
+    margin-top: -15vh;
+    margin-bottom: 5vh;
+    min-width: 250px;
+  }
+}

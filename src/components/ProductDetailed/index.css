@@ -1,0 +1,39 @@
+.ui.huge.header.productHeader {
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.ui.label.sizeLabel,
+.ui.label.colorLabel,
+.ui.label.priceInquiryLabel {
+  padding: 1em 3em;
+  background-color: white;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+  text-transform: capitalize;
+}
+
+.ui.label.colorLabel {
+  padding: 1em 2em;
+}
+
+.ui.label.priceInquiryLabel:hover {
+  background-color: rgba(1, 1, 1, 0.8);
+  color: white;
+}
+
+.similarSection {
+  width: 100%;
+  margin: 2em 0;
+  letter-spacing: -0.5px;
+}
+
+/* On Desktop */
+@media only screen and (min-width: 767px) {
+  .ui.huge.header.productHeader {
+    font-size: 3em;
+    letter-spacing: -2px;
+    text-transform: capitalize;
+    line-height: 0.75em;
+  }
+}

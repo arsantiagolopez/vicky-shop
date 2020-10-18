@@ -1,0 +1,30 @@
+.similarSection {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+  height: 60vh;
+  max-height: 60vh;
+}
+.similarSection::-webkit-scrollbar {
+  display: none;
+}
+.ui.basic.segment {
+  padding: 0;
+  width: 220vh;
+}
+
+/* Mobile Media Queries */
+@media only screen and (max-width: 767px) {
+  .similarSection {
+    max-height: 120vh;
+    overflow-y: scroll;
+    height: 90vh;
+  }
+  .similarProduct {
+    width: 100% !important;
+    margin-bottom: 2rem !important;
+  }
+  .ui.basic.segment {
+    width: 100%;
+  }
+}

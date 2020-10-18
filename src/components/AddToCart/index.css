@@ -1,0 +1,81 @@
+/* ####################### Button shining animation ####################### */
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.ui.label.addToCartButton {
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.8);
+  box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.2);
+  color: white;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  border-radius: 2rem;
+  padding: 1.25em;
+  cursor: pointer;
+}
+.ui.addToCartSuccess {
+  background: linear-gradient(270deg, #010101, #525151, #010101);
+  background-size: 600% 600%;
+  -webkit-animation: shine 4s ease infinite;
+  -o-animation: shine 4s ease infinite;
+  animation: shine 4s ease infinite;
+  color: white;
+  width: 100%;
+  box-shadow: 5px 5px 15px rgba(1, 1, 1, 0.2);
+  color: white;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  border-radius: 2rem;
+  padding: 1.25em;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.label.ui.addToCartSuccess {
+    background: linear-gradient(270deg, #010101, #525151, #010101);
+    background-size: 600% 600%;
+    -webkit-animation: shine 4s ease infinite;
+    -o-animation: shine 4s ease infinite;
+    animation: shine 4s ease infinite;
+    color: white;
+  }
+}

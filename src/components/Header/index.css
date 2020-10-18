@@ -1,0 +1,12 @@
+/* get rid of menu's round edges and border */
+.ui.menu {
+  border: 0;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* adjust headroom's bottom shadow */
+.ui.huge.borderless.menu {
+  background: transparent;
+  border: 0;
+}

@@ -1,0 +1,33 @@
+/* Masonry configuration */
+
+.my-masonry-grid {
+  display: flex;
+  width: auto;
+  margin-left: -1em; /* gutter size offset */
+}
+.my-masonry-grid_column {
+  background-clip: padding-box;
+  padding-left: 1em; /* gutter size offset */
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+}
+
+/* Other styles */
+.ui.huge.header.categoryLabel {
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0;
+  left: 0;
+  right: 0;
+  bottom: 0.5em;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 1px 2px 5px rgba(1, 1, 1, 0.1);
+  letter-spacing: -1px;
+  line-height: 1em;
+}

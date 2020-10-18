@@ -1,0 +1,17 @@
+/* Add shadows to cards*/
+.ui.card,
+.ui.cards > .card {
+  border-radius: 0;
+  box-shadow: 0px 10px 20px 0 rgba(34, 36, 38, 0.15);
+}
+
+.ui.cards a.card:hover,
+.ui.link.card:hover,
+.ui.link.cards .card:hover,
+a.ui.card:hover {
+  box-shadow: 0px 5px 15px 0 rgba(34, 36, 38, 0.15);
+}
+
+.content.active {
+  padding: 0 !important;
+}

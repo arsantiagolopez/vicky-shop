@@ -1,0 +1,17 @@
+.sortItems {
+  z-index: 100;
+  position: absolute;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  right: 0;
+  /* margin: 0 -7em 0.5rem -7em; */
+  box-shadow: 0px 10px 10px 0 rgba(141, 142, 143, 0.1);
+}
+.sortItems p {
+  margin: 0;
+  padding: 5px 2em 5px 2em;
+}
+.sortItems p:hover {
+  background-color: rgba(148, 148, 148, 0.1);
+}
