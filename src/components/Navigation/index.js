@@ -53,7 +53,6 @@ const Navigation = ({path, categories}) => {
                 as={Link}
                 to={`/catalogo/${categorySlug}/`}
                 key={index}
-                style={{textTransform: `capitalize`}}
               >
                 <h2>{category}</h2>
               </Menu.Item>
