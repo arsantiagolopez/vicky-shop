@@ -82,7 +82,7 @@ collections:
       - widget: 'string'
         label: 'Nombre de la Categoria'
         name: 'categoryName'
-        hint: 'Nombre de la categoria no puede ser editado una vez creado. Si quieres editarlo, borra y crea esta categoria nuevamente."
+        hint: 'Nombre de la categoria no puede ser editado una vez creado. Si quieres editarlo, borra y crea esta categoria nuevamente.'
         required: true
       # Image (image)
       - widget: 'image'
