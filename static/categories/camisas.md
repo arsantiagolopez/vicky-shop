@@ -1,4 +1,4 @@
 ---
-categoryName: camisas
+categoryName: Camisas
 featuredImage: ../images/shirts.jpg
 ---
