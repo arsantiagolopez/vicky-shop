@@ -20,7 +20,6 @@
 .ui.huge.header.categoryLabel {
   position: absolute;
   text-align: center;
-  text-transform: capitalize;
   padding: 0;
   left: 0;
   right: 0;
