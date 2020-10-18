@@ -1,4 +1,4 @@
 ---
-categoryName: perfumes
+categoryName: Perfumes
 featuredImage: ../images/perfumes.jpeg
 ---
