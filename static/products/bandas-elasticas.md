@@ -1,5 +1,5 @@
 ---
-category: Vestidos
+category: Ropa deportiva y accesorios
 title: "Bandas Elasticas "
 description: 3-in-1 Bandas Latex Resistentes
 size: Normal
