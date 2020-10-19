@@ -1,5 +1,5 @@
 ---
-category: Vestidos
+category: Ropa deportiva y accesorios
 title: " Bandas Latex. Blue"
 description: Bandas Resistentes
 size: Medium
