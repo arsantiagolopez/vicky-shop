@@ -1,4 +1,4 @@
 ---
-categoryName: Vestidos
-featuredImage: ../images/dresses.jpeg
+categoryName: Ropa deportiva y accesorios
+featuredImage: /images/deportivo.jpeg
 ---
