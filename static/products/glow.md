@@ -4,6 +4,6 @@ title: Glow
 description: Perfume de Mujer
 size: " 3.4 EDT SP "
 brand: Jennifer Lopez
-featuredImage: /images/glow.jpeg
-dateCreated: 2020-10-19T03:56:45.517Z
+featuredImage: /images/glow.jpg
+dateCreated: 2020-10-20T00:55:01.912Z
 ---
