@@ -1,6 +1,6 @@
 ---
 category: Zapatos
-title: Sandalias Brennia
+title: Sandalias Bennia
 description: "Sandalias con correa trasera, hebilla lateral y  herrajes
   metálicos con monograma.  "
 size: "7.5"
