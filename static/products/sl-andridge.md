@@ -10,6 +10,6 @@ size: "7"
 brand: Adidas
 colors:
   - Blanco
-featuredImage: /images/sport.jpg
+featuredImage: /images/img_9324.jpg
 dateCreated: 2020-11-01T17:52:59.720Z
 ---
