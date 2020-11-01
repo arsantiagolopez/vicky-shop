@@ -1,6 +1,6 @@
 ---
 category: Zapatos
-title: Sandalias Brenna
+title: Sandalias Brennia
 description: "Sandalias con correa trasera, hebilla lateral y  herrajes
   metálicos con monograma.  "
 size: "7.5"
