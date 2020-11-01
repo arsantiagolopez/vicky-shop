@@ -1,4 +1,4 @@
 ---
 colorName: Negro
-colorCode: "#111111"
+colorCode: "#000000"
 ---
