@@ -1,4 +1,4 @@
 ---
 colorName: Blanco
-colorCode: "#000000"
+colorCode: "#FFFFFF"
 ---
