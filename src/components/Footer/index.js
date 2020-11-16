@@ -40,7 +40,8 @@ const Footer = () => {
       const firstThree = num.substring(num.length - 10, num.length - 7)
       const extension = num.substring(0, num.length - 10)
 
-      return `${extension} (${firstThree}) ${middleThree}-${lastFour}`
+      // return `${extension} (${firstThree}) ${middleThree}-${lastFour}`
+      return `(${firstThree}) ${middleThree}-${lastFour}`
     }
   }
 
@@ -61,7 +62,7 @@ const Footer = () => {
               }}
             >
               <p>
-                Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad. Visita nuestro catalogo y para mayor información contáctanos a través de los siguientes números:
+                Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad. Visita nuestro catálogo y para mayor información contáctanos a través de los siguientes números:
               </p>
             </Grid.Column>
           </Grid.Row>
@@ -81,7 +82,7 @@ const Footer = () => {
                 style={{color: `#387b9f`}}
               >
                 <Icon name="whatsapp" size="large" />
-                +58 (412) 661-1445
+                (412) 661-1445
               </a>
             </Grid.Column>
             <Grid.Column>
@@ -90,7 +91,7 @@ const Footer = () => {
                 style={{color: `#387b9f`}}
               >
                 <Icon name="whatsapp" size="large" />
-                +58 (414) 374-7594
+                (414) 374-7594
               </a>
             </Grid.Column>
           </Grid.Row>
