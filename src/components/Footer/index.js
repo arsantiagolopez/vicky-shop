@@ -51,7 +51,7 @@ const Footer = () => {
       <Container text style={{padding: `2em 0`}}>
         <Grid stackable textAlign="center">
           <Grid.Row>
-            <Header as="h1">V I C K Y S H O P</Header>
+            <Header as="h1">V I C K Y { ` ` } S H O P</Header>
           </Grid.Row>
           <Grid.Row>
             <Grid.Column
