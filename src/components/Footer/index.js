@@ -66,8 +66,9 @@ const Footer = () => {
                   fontSize: `16pt`,
                 }}
               >
-                Martes a Domingo
+                Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad.
               </h3>
+              <p>Visita nuestro catalogo y para mayor información contáctanos a través de los siguientes números:</p>
               <p style={{marginTop: `-1em`}}>9:00AM - 10:00PM</p>
             </Grid.Column>
           </Grid.Row>
