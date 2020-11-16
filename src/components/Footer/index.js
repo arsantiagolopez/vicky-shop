@@ -47,7 +47,7 @@ const Footer = () => {
   return (
     <footer>
       <Divider style={{marginTop: `0`}} />
-      <Container text style={{padding: `2em 0`}}>
+      <Container text style={{fontSize: `12pt`, padding: `2em 0`}}>
         <Grid stackable textAlign="center">
           <Grid.Row>
             <Header as="h1">V I C K Y S H O P</Header>
@@ -59,14 +59,11 @@ const Footer = () => {
               }}
             >
               <p>
-                Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad.
-              </p>
-              <p style={{marginTop: `-1em`}}>
-                Visita nuestro catalogo y para mayor información contáctanos a través de los siguientes números:
+                Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad. Visita nuestro catalogo y para mayor información contáctanos a través de los siguientes números:
               </p>
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row>
+          <Grid.Row columns={3}>
             <Grid.Column>
               <a
                 href={`https://wa.me/${whatsappNumber}`}
@@ -76,8 +73,6 @@ const Footer = () => {
                 {formatPhone(phone)}
               </a>
             </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
             <Grid.Column>
               <a
                 href={`https://wa.me/+584126611445`}
@@ -87,8 +82,6 @@ const Footer = () => {
                 +58 (412) 661-1445
               </a>
             </Grid.Column>
-          </Grid.Row>
-          <Grid.Row>
             <Grid.Column>
               <a
                 href={`https://wa.me/+584143747594`}
