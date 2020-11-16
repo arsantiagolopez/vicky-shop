@@ -47,11 +47,7 @@ const Footer = () => {
   return (
     <footer>
       <Divider style={{marginTop: `0`}} />
-      <Container text style={{
-        fontSize: `12pt`,
-        padding: `2em 0`,
-        fontStyle: `italic`,
-      }}>
+      <Container text style={{padding: `2em 0`}}>
         <Grid stackable textAlign="center">
           <Grid.Row>
             <Header as="h1">V I C K Y S H O P</Header>
@@ -60,6 +56,8 @@ const Footer = () => {
             <Grid.Column
               style={{
                 letterSpacing: `-0.25pt`,
+                fontStyle: `italic`,
+                fontSize: `14pt`, 
               }}
             >
               <p>
