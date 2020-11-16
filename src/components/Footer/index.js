@@ -58,17 +58,12 @@ const Footer = () => {
                 letterSpacing: `-0.25pt`,
               }}
             >
-              <h3
-                style={{
-                  fontWeight: `normal`,
-                  fontSize: `16pt`,
-                }}
-              >
+              <p>
                 Somos una tienda online donde nos enforzamos en ofrecerles los mejores artículos de marcas reconocidas, excelentes precios y de alta calidad.
-              </h3>
-              <h2 style={{marginTop: `-1em`}}>
+              </p>
+              <p style={{marginTop: `-1em`}}>
                 Visita nuestro catalogo y para mayor información contáctanos a través de los siguientes números:
-              </h2>
+              </p>
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
@@ -80,6 +75,10 @@ const Footer = () => {
                 <Icon name="whatsapp" size="large" />
                 {formatPhone(phone)}
               </a>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
               <a
                 href={`https://wa.me/+584126611445`}
                 style={{color: `#387b9f`}}
@@ -87,6 +86,10 @@ const Footer = () => {
                 <Icon name="whatsapp" size="large" />
                 +58 (412) 661-1445
               </a>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
               <a
                 href={`https://wa.me/+584143747594`}
                 style={{color: `#387b9f`}}
